@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+.name{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.navigation{
+    font-family: Helvetica, sans-serif;
+    background-color: wheat;
+}
+.first{
+    padding-top: 2px;
+    padding-left: 1px;
+    width: 60px;
+    border: 3px;
+    border-radius: 50px;
+}
+.nav{
+    padding-left: 400px;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 25px;
+}
+.nav a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.tips{
+    font-family: Helvetica, sans-serif;
+    background-image: url(td.jpg);
+    background-repeat: no-repeat;
+    background-position: 350px;
+    background-size: contain;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+h1{
+    padding-left: 150px;
+}
+iframe{
+    margin-left: 300px;
+    border: 10px gold;
+    border-style: ridge;
+    margin-top: 30px;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="t2.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>TEMP2</title>
+</head>
+<body>
+  <form>
+    <div class="container">
+      <h1>RESUME GENERATOR</h1>
+      <p>by ProCV</p>
+  
+      <h3>PERSONAL INFORMATION</h3>
+      <div class="form-group">
+        <label for="nameField">YOUR NAME</label>
+        <br>
+        <input type="text" id="nameField" 
+  placeholder="Enter here" class="form-control" />
+      </div>
+  
+      <div class="form-group">
+        <label for="contactField">YOUR CONTACT</label><br>
+        <input type="number" id="contactField" placeholder="Enter here" class="form-control" />
+      </div>
+  
+      <div class="form-group"></div>
+      <label for="addressField">YOUR ADDRESS</label><br>
+      <textarea type="text" id="AddressField" placeholder="Enter here" class="form-control" cols="20" rows="3"></textarea>
+    </div>
+
+    <div class="form-group"></div>
+    <label for="aboutField">INTRODUCTION</label><br>
+    <textarea type="text" id="aboutField" placeholder="Enter here" class="form-control" cols="20" rows="3"></textarea>
+  </div>
+    <hr>
+    <hr>
+  
+    <a class="secondary-text">IMPORTANT LINKS</a>
+    <hr>
+    <hr>
+    <div class="form-group"></div>
+    <label for="fbfield">FACEBOOK</label><br>
+    <input type="text" id="fbField" placeholder="Enter here" class="form-control" rows="5" />
+  
+    <div class="form-group"></div>
+    <label for="instafield">INSTAGRAM</label><br>
+    <input type="text" id="instaField" placeholder="Enter here" class="form-control" rows="5" />
+  
+    <div class="form-group"></div>
+    <label for="lifield">LINKEDIN</label><br>
+    <input type="text" id="liField" placeholder="Enter here" class="form-control" rows="5" />
+    <hr>
+    <hr>
+    <div class="form-group" id="sk">
+      <label>SKILLS</label><br>
+      <p class="demo"></p>
+      <textarea type="text" id="skill" placeholder="Enter here" class="form-control skField" rows="3"></textarea>
+      <br>
+      <div id="we">
+        <input type = "button" name="add" onclick="addnew()" value="add">
+      </div>
+    </div>
+  
+    <hr>
+    <hr>
+  
+    <h3>PROFESSIONAL INFORMATION</h3>
+  
+    <div class="form-group" id="bd">
+    <label>WORK EXPERIENCE</label><br><br>
+    <label class="beg_year">NAME OF ORGANIZATION</label><br>
+    <textarea type="text" placeholder="Enter here" class="form-control bgField" rows="1"></textarea>
+    <br>
+    <div id="begin">
+    <input type = "button" name="add" onclick="insert()" value="add">
+  </div>
+    </div>
+    <br>
+    <hr>
+    <hr>
+  
+    <div class="form-group" id="bg">
+      <label>EDUCATION</label><br><br>
+      <label class="beg_year">NAME OF SCHOOL/COLLEGE</label><br>
+      <textarea type="text" placeholder="Enter here" class="form-control bdField" rows="1"></textarea>
+      <br>
+      <div id="be">
+      <input type = "button" name="add" onclick="insert1()" value="add">
+    </div>
+      </div>
+      <br>
+    <hr>
+    <hr>
+  
+    <div class="form-group" id="cr">
+      <label>CERTIFICATION</label><br>
+      <p class="demo"></p>
+      <textarea type="text" placeholder="Enter here" class="form-control crField" rows="3"></textarea>
+      <br>
+      <div id="crname">
+        <input type = "button" name="add" onclick="insert2()" value="add">
+      </div>
+    </div>
+    <hr>
+    <hr>
+    <input type = "button" name="generateCV" onclick="genCV()" value="generateCV">
+  </form>
+  <br>
+  <div class="full">
+    <h1 id="name">ATHARVA AMLE</h1>
+    <p class="prof">Profession</p>
+    <p style="margin-left: 10px;">phone number:</p>
+    <p id="phone"></p>
+    <p style="margin-left: 10px;">address:</p>
+    <p id="addr"></p>
+    <p id="about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum minus dolorum voluptates unde? Officia quidem enim maiores, hic accusantium nulla voluptatibus cumque eligendi quibusdam rem minima veniam est ex laborum.
+      Nemo tempora provident dolorum? Aliquam a, quo vel assumenda ut excepturi amet cumque beatae, sapiente enim magnam sint tenetur deleniti inventore architecto qui voluptatibus! Blanditiis similique neque consectetur exercitationem tenetur!
+      Amet sed ea id quod, ab distinctio voluptas obcaecati doloribus pariatur enim saepe est adipisci non eum voluptatem placeat nostrum magnam. Ratione fugiat facilis ipsam tenetur iste quam dolorum a.</p>
+    <br>
+    <img src="D:\MINI PROJECT\skills.jpg" class="skimg" alt="">
+    <h2 id="skills">Skills</h2>
+    <hr>
+    <span>
+      <ul id="skilist">
+        <li></li>
+        <li></li>
+      </ul>
+    </span>
+    <img src="D:\MINI PROJECT\nootbook.jpg" class="bag" alt="">
+    <h2 class="edu">Education</h2>
+    <hr>
+        <ul id="educ">
+        <li></li>
+        <li></li>
+         </ul>
+    <img src="D:\MINI PROJECT\nootpad.jpg" class="bag" alt="">
+    <h2 class="exp">Experience</h2>
+    <hr>
+    <ul id="expr">
+      <li></li>
+      <li></li>
+  </ul>
+    <img src="D:\MINI PROJECT\CERTI.jpg" alt="" class="bag">
+    <h2 class="cert">Certification</h2>
+    <hr>
+    <span>
+      <ul id="certlist">
+        <li></li>
+        <li></li>
+      </ul>
+    </span>
+    <input type = "button" name="print" onclick="printCV()" value="print" class="print">
+  </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+   font-family: Helvetica, sans-serif;
+   margin: 0px;
+   padding-left: 200px;
+   padding-right: 200px;
+}
+form{
+ text-align: center;
+ background-color: azure;
+ border: 1px solid black;
+ margin-top: 2px;
+ padding-bottom: 10px;
+}
+.full{
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+#name{
+    padding-left: 10px;
+    font-style: italic;
+    color: rgb(28, 28, 119);
+}
+.prof{
+    padding-left: 10px;
+}
+#addr{
+    padding-left: 10px;
+}
+#about{
+    padding-left: 10px;
+}
+.skimg{
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 45px;
+    position: absolute;
+}
+#skills{
+    padding-left: 60px;
+    font-style: italic;
+    color: rgb(28, 28, 119);
+    margin-bottom: 0px;
+}
+#skilist{
+    margin-left: 40px;
+    list-style-type: disc;
+}
+.edu{
+    padding-left: 50px;
+    font-style: italic;
+    color: rgb(28, 28, 119);
+    margin-bottom: 0px;
+}
+.edulist{
+    margin-left: 40px;
+    list-style-type: disc;
+}
+.exp{
+    padding-left: 50px;
+    font-style: italic;
+    color: rgb(28, 28, 119);
+    margin-bottom: 0px;
+}
+.explist{
+    margin-left: 40px;
+    list-style-type: disc;
+}
+.cert{
+    padding-left: 50px;
+    font-style: italic;
+    color: rgb(28, 28, 119);
+    margin-bottom: 0px;
+}
+#certlist{
+    margin-left: 40px;
+    list-style-type: disc;
+}
+.bag{
+    padding-left: 5px;
+    width: 35px;
+    position: absolute;
+}
+.print{
+   text-align: center;
+}
+#educ{
+    margin-left: 40px;
+}
+#expr{
+    margin-left: 40px;
+}

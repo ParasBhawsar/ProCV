@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.info{
+    background-color: whitesmoke;
+    padding-top: 5px;
+}
+.top{
+    padding-left: 30px;
+    display: flex;
+    background-color: rgb(23, 16, 80);
+}
+.img{
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    border-radius: 100px;
+}
+.name{
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+.pers{
+    position: absolute;
+    padding-left: 550px;
+    color: white;
+}
+.diff1{
+    border-right: 2px solid white;
+    height: 210px;
+    position: absolute;
+    left: 38%;
+}
+.diff2{
+    border-right: 2px solid white;
+    height: 210px;
+    position: absolute;
+    left: 65%;
+}
+.title{
+    font-size: 20px;
+}
+.first{
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+   margin-right: auto;
+   margin-left: -190px;
+}
+.second{
+    margin-left:-650px;
+}
+.links{
+    position: relative;
+    top: 120px;
+    left: -930px;
+}
+a{
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+}
+.point{
+    display: flex;
+    align-items: center;
+}
+.point img{
+    width: 50px;
+    border-radius: 60px;
+}
+.p2{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.v{
+    border-right: 4px solid black;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    height: 825px;
+}
+.soft{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    text-align: center;
+}

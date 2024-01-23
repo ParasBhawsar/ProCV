@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+form{
+ text-align: center;
+ background-color: aqua;
+ border: 1px solid black;
+ margin-top: 2px;
+ padding-bottom: 10px;
+}
+.full{
+    background-color: aliceblue;
+    height: 900px;
+    display: table;
+    width: 100%;
+    border: 1px solid black;
+}
+.side{
+    border-right: 1px solid black;
+    display: table-cell;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(9, 9, 110);
+}
+#name{
+    padding-left: 20px;
+    font-size: 30px;
+}
+#phone{
+    padding-left: 20px;
+}
+#address{
+    padding-left: 20px;
+}
+#email{
+    padding-left: 20px;
+}
+.first{
+    padding-left: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.second{
+    padding-left: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.soft{
+    padding-left: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.cer{
+    padding-left: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.intro{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+.main{
+    font-family: "Lucida Console", monospace;
+    color: grey;
+    position: relative;
+    padding-bottom: 0px;
+    padding: 30px;
+    padding-left: 30px;
+}
+.exp{
+    color: black;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.explain{
+    list-style-type: disc;
+    padding-left: 150px;
+}
+.list{
+    margin-bottom: 30px;
+}
